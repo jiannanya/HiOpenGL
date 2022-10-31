@@ -1,9 +1,22 @@
 # HiOpenGL
-cmd environment opengl helloworld project with vscode+opengl+mingw+cmake+ninja 
+Cmd environment opengl helloworld project with compile tool chain：   
++ vscode  
++ opengl 
++ mingw
++ cmake
++ ninja
 
-### In windows ###
+### In windows ###  
+
+At first
+
 ```
 mkdir build
-cd ./build
+cd .\build 
 cmake .. -G Ninja
+```
+
+Then run  
+```
+.\OpenGLLearn.exe
 ```
